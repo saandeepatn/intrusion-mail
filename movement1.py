@@ -1,9 +1,9 @@
 import time
 import serial
 import smtplib
-TO = 'saandeepatn@gmail.com'
-GMAIL_USER = 'selfstudyise@gmail.com'
-GMAIL_PASS = 'weareawesome'
+TO = 'owneremail@gmail.com'
+GMAIL_USER = 'emilid@gmail.com'
+GMAIL_PASS = 'password'
 SUBJECT = 'Intrusion!!'
 TEXT = 'Your PIR sensor detected movement'
 ser = serial.Serial('/dev/ttyACM0', 9600)
